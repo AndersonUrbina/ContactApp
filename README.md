@@ -1,6 +1,6 @@
 # ContactApp
 
-A simple ASP.NET Core Razor Pages contact form.
+A simple ASP.NET Core Razor Pages application that allows users to submit their name, email, and a message.
 
 ## Features
 
