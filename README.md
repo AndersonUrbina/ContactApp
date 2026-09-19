@@ -13,13 +13,11 @@ A simple ASP.NET Core Razor Pages application that allows users to submit their 
 
 ### Contact Form
 
-![Contact Form]
-<img src="Images/ContactForm.png" width="300" height="auto">>
+![Contact Form](<img src="Images/ContactForm.png" width="300" height="auto">)
 
 ### Thank You
 
-![Thank You]
-<img src="Images/ThankYouPage.png" width="300" height="auto">
+![Thank You](<img src="Images/ThankYouPage.png" width="300" height="auto">)
 
 ## Technologies
 
