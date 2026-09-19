@@ -1,0 +1,147 @@
+html {
+    font-size: 14px;
+    position: relative;
+    min-height: 100%;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+body {
+    margin: 0;
+    margin-bottom: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f7fa;
+    color: #212529;
+}
+
+/* Navigation */
+.navbar {
+    background-color: #ffffff;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.navbar-brand {
+    font-weight: 700;
+}
+
+.nav-link {
+    color: #555 !important;
+    margin-left: 10px;
+}
+
+    .nav-link:hover {
+        color: #258cfb !important;
+    }
+
+/* Main content */
+main {
+    padding-top: 40px;
+}
+
+/* Contact form */
+.form {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+    .form h1 {
+        margin-bottom: 25px;
+        font-size: 2rem;
+        font-weight: 600;
+    }
+
+    /* Form controls */
+    .form input[type="text"],
+    .form input[type="email"],
+    .form textarea {
+        width: 100%;
+        padding: 10px 12px;
+        margin-top: 5px;
+        border: 1px solid #ced4da;
+        border-radius: 6px;
+        box-sizing: border-box;
+        font-size: 1rem;
+    }
+
+    .form textarea {
+        resize: vertical;
+    }
+
+        .form input:focus,
+        .form textarea:focus {
+            outline: none;
+            border-color: #258cfb;
+            box-shadow: 0 0 0 3px rgba(37, 140, 251, 0.15);
+        }
+
+    /* Submit button */
+    .form input[type="submit"] {
+        padding: 10px 20px;
+        border: none;
+        border-radius: 6px;
+        background-color: #258cfb;
+        color: white;
+        font-size: 1rem;
+        cursor: pointer;
+    }
+
+        .form input[type="submit"]:hover {
+            background-color: #1476d4;
+        }
+
+/* Validation messages */
+.field-validation-error {
+    color: #dc3545;
+    font-size: 0.9rem;
+}
+
+.input-validation-error {
+    border-color: #dc3545 !important;
+}
+
+/* Footer */
+footer {
+    border-top: 1px solid #e5e7eb;
+    padding: 20px 0;
+    color: #6c757d;
+}
+
+/*Home page CSS*/
+.home {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+    .home h1 {
+        font-size: 2.5rem;
+        margin-bottom: 15px;
+    }
+
+    .home p {
+        color: #6c757d;
+        margin-bottom: 25px;
+        font-size: 1.1rem;
+    }
+
+.home-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #258cfb;
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+    .home-button:hover {
+        background-color: #1476d4;
+        color: white;
+    }
