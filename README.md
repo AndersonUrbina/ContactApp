@@ -25,3 +25,15 @@ A simple ASP.NET Core Razor Pages application that allows users to submit their 
 * C#
 * HTML/CSS
 * JSON
+
+## How to Run
+
+1. Open a terminal in the project directory.
+2. Run the application using the following command:
+   ```
+   dotnet run
+   ```
+3. Open the URL shown in the terminal, such as:
+   ```
+   http://localhost:5065
+   ```
