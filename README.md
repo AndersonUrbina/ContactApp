@@ -14,12 +14,12 @@ A simple ASP.NET Core Razor Pages contact form.
 ### Contact Form
 
 ![Contact Form]
-<img src="Images/ContactForm.png" width="600" height="auto">>
+<img src="Images/ContactForm.png" width="300" height="auto">>
 
 ### Thank You
 
 ![Thank You]
-<img src="Images/ThankYouPage.png" width="600" height="auto">
+<img src="Images/ThankYouPage.png" width="300" height="auto">
 
 ## Technologies
 
